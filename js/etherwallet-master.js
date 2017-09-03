@@ -5968,7 +5968,7 @@ nodes.nodeList = {
         'blockExplorerAddr': 'https://explorer.alchemistcoin.org/address/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
-        'chainId': 612734562335634635,
+        'chainId': 2555222,
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'Alchemist',
