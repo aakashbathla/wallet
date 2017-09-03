@@ -1,0 +1,13 @@
+{
+    "name": "Alchemist Wallet",
+    "version": "3.10.2.9",
+    "description": "An NPM dist of Alchemist Wallet. For easier downloading & updating via CLI.",
+    "author": "MyEtherWallet",
+    "license": "ISC",
+    "devDependencies": {
+        "open": "0.0.5"
+    },
+    "bin": {
+        "mew": "bin/startMEW.js"
+    }
+}
