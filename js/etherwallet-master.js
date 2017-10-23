@@ -5978,7 +5978,7 @@ nodes.nodeList = {
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'Alchemist',
-        'lib': new nodes.customNode('http://192.169.216.103:8545', '')
+        'lib': new nodes.customNode('http://54.169.144.165:8545', '')
     }
 };
 
