@@ -5970,15 +5970,15 @@ nodes.customNodeObj = {
 nodes.nodeList = {
     'eth_mew': {
         'name': 'ALC',
-        'blockExplorerTX': 'http://explorer.alchemistcoin.io/#/transaction/[[txHash]]',
-        'blockExplorerAddr': 'http://explorer.alchemistcoin.io/#/address/[[address]]',
+        'blockExplorerTX': 'https://explorer.alchemistcoin.io/#/transaction/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.alchemistcoin.io/#/address/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
         'chainId': 2555222,
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'Alchemist',
-        'lib': new nodes.customNode('http://54.169.144.165:8545', '')
+        'lib': new nodes.customNode('https://54.169.144.165:8545', '')
     }
 };
 
